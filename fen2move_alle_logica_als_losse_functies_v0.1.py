@@ -69,6 +69,7 @@ def count_changed_squares(board1, board2):
     # waarbij dat 2, 3 of 4 is
     # 2 voor reguliere zetten
     # 3 voor en passant
+    #voor latere optimalisatie
     changed_count = 0
     # Elke rij en kolom doorlopen
     for i in range(len(board1)):
